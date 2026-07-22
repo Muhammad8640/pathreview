@@ -46,9 +46,7 @@ I selected this issue because it is labeled as a Tier 1 issue and a good first i
 
 
 
-\*\*Setup Confirmation:\*\* ☐ App runs locally at `http://localhost:5173`
+**Setup Confirmation:** ☑ App runs locally at `http://localhost:5173`
 
 
-
-\*\*Cohort Ledger:\*\* ☐ Issue added to the cohort issue ledger
-
+**Cohort Ledger:** ☑ Issue added to the cohort issue ledger
