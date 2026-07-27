@@ -50,3 +50,23 @@ I selected this issue because it is labeled as a Tier 1 issue and a good first i
 
 
 **Cohort Ledger:** ☑ Issue added to the cohort issue ledger
+
+
+
+## Week 8 — Reproduction & solution planning
+
+**Reproduction commit link:** *(add after pushing the commit)*
+
+**Reproduction summary:**
+
+Inspected the current implementation of `agent/tools/github_tool.py` and `ingestion/parsers/repo_analyzer.py`. Confirmed that `RepoAnalyzer` already supports detecting whether a repository contains tests and includes a `has_tests` field, but `GitHubTool` does not expose this field or gather the repository file structure needed to determine it. This reproduces the missing functionality described in Issue #50.
+
+**PLAN.md link:** *(add after creating PLAN.md)*
+
+**Walkthrough video (recommended):**
+
+Not recorded.
+
+**Blockers or open questions:**
+
+Need to determine the best way for `GitHubTool` to retrieve the repository file structure so `has_tests` can be detected without negatively affecting performance.
