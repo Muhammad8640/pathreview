@@ -68,7 +68,7 @@ The repository currently contains unrelated pre-existing lint and unit test fail
 
 ## Check-in 2 (end of week)
 
-**PR link:** *(Add your pull request URL here after opening it.)*
+**PR link:** *https://github.com/ascherj/pathreview/pull/891*
 
 **Branch:** `feat/50-add-has-tests`
 
